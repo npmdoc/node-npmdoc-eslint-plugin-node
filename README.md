@@ -1,4 +1,7 @@
-# api documentation for  [eslint-plugin-node (v4.2.2)](https://github.com/mysticatea/eslint-plugin-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-plugin-node.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-plugin-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-node.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-node)
+# npmdoc-eslint-plugin-node
+
+#### basic api documentation for  [eslint-plugin-node (v4.2.2)](https://github.com/mysticatea/eslint-plugin-node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-plugin-node.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-plugin-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-node.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-node)
+
 #### Additional ESLint's rules for Node.js
 
 [![NPM](https://nodei.co/npm/eslint-plugin-node.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eslint-plugin-node)
@@ -102,7 +105,8 @@
         "test:_mocha": "_mocha tests/lib/**/*.js --reporter progress",
         "watch": "npm run test:_mocha -- --watch --growl"
     },
-    "version": "4.2.2"
+    "version": "4.2.2",
+    "bin": {}
 }
 ```
 
